@@ -1,0 +1,93 @@
+Microchip Technology Inc, v(K
+
+Tool Name:
+  c:\program files (x86)\microchip\xc16\v1.20\bin\bin\..\bin/coff-ld.exe
+
+Command:
+  -p24FJ64GB004 \
+  -o \
+  sbxbt_ps3.cof \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/.. \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/PIC24E \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/PIC24E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/PIC24F \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/PIC24F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/PIC24H \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/PIC24H/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/dsPIC30F \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/dsPIC30F/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/dsPIC33E \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/dsPIC33E/gld \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib/dsPIC33F \
+  -Lc:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../support/dsPIC33F/gld \
+  output\main.o \
+  output\uart2.o \
+  output\usb_host.o \
+  output\usb_config.o \
+  output\btstack_memory.o \
+  output\hci.o \
+  output\hci_cmds.o \
+  output\hci_dump.o \
+  output\hci_transport_picusb.o \
+  output\l2cap.o \
+  output\l2cap_signaling.o \
+  output\linked_list.o \
+  output\memory_pool.o \
+  output\remote_device_db_memory.o \
+  output\rfcomm.o \
+  output\run_loop.o \
+  output\run_loop_embedded.o \
+  output\sdp.o \
+  output\sdp_util.o \
+  output\utils.o \
+  output\xprintf.o \
+  output\uart1.o \
+  output\flash.o \
+  output\usb_host_bluetooth.o \
+  output\dev_dragonrise.o \
+  output\dev_elecom_u3312s.o \
+  output\dev_elecom_u3412s.o \
+  output\dev_logicool_f710.o \
+  output\dev_sony_ps3.o \
+  output\dev_logicool_f510.o \
+  output\TimeDelay.o \
+  -Tp24FJ64GB004.gld.00 \
+  --defsym=__MPLAB_BUILD=1 \
+  -Map=sbxbt_ps3.map \
+  --report-mem \
+  -start-group \
+  --library=fx-coff \
+  --library=pic30-coff \
+  --library=m-coff \
+  --library=c-coff \
+  -end-group \
+
+Archive member included because of file (symbol)
+
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o)
+                              (_resetPRI)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(data_init_standard.o)
+                              c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(crt0_standard.o) (_data_init_standard)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libm-coff.a(umodsi3.o)
+                              output\xprintf.o (__umodsi3)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libm-coff.a(udivsi3.o)
+                              output\xprintf.o (__udivsi3)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(memcmp.o)
+                              output\main.o (memcmp)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(memcpy.o)
+                              output\main.o (memcpy)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(memset.o)
+                              output\main.o (memset)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(malloc.o)
+                              output\usb_host.o (malloc)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(strlen.o)
+                              output\hci_cmds.o (strlen)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(strncpy.o)
+                              output\remote_device_db_memory.o (strncpy)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(strncmp.o)
+                              output\remote_device_db_memory.o (strncmp)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(sbrk.o)
+                              c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libc-coff.a(malloc.o) (sbrk)
+c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(brk.o)
+                              c:/program files (x86)/microchip/xc16/v1.20/bin/bin/../../lib\libpic30-coff.a(sbrk.o) (brk)

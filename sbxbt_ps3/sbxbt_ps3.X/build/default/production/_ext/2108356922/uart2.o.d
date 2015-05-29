@@ -1,0 +1,22 @@
+build/default/production/_ext/2108356922/uart2.o:  \
+../Common/uart2.c  \
+ ../Common/Compiler.h  \
+../HardwareProfile.h  \
+../Common/uart1.h  \
+ ../Common/uart2.h  \
+../Common/uart2.h  \
+../global.h  \
+ ../Common/GenericTypeDefs.h  \
+../HardwareProfile.h  \
+../usb_config.h  \
+ ../Common/Compiler.h  \
+../USB/usb.h  \
+../usb_config.h  \
+../USB/usb_common.h  \
+ ../USB/usb_ch9.h  \
+../USB/usb_host.h  \
+../USB/usb_hal.h  \
+ ../USB/usb_hal_pic24.h  \
+../USB/usb_host_bluetooth.h  \
+../user.h  \
+ ../xprintf.h 
