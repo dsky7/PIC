@@ -1,0 +1,23 @@
+build/default/production/_ext/1472/dev_elecom_u3412s.o:  \
+ ../dev_elecom_u3412s.c  \
+../btstack/btdebug.h  \
+../btstack/config.h  \
+ ../xprintf.h  \
+../btstack/hci_dump.h  \
+../global.h  \
+ ../Common/GenericTypeDefs.h  \
+../HardwareProfile.h  \
+../Common/uart1.h  \
+ ../Common/uart2.h  \
+../usb_config.h  \
+../Common/Compiler.h  \
+../USB/usb.h  \
+ ../usb_config.h  \
+../USB/usb_common.h  \
+../USB/usb_ch9.h  \
+../USB/usb_host.h  \
+ ../USB/usb_hal.h  \
+../USB/usb_hal_pic24.h  \
+../USB/usb_host_bluetooth.h  \
+ ../user.h  \
+../xprintf.h 
