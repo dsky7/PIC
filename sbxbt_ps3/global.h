@@ -29,7 +29,7 @@
 // Define the baud rate constants UART1
 #if	FORMAT_RCB3
 	#define	UARTPARAM1			UARTPARAM_N81	//data=8bit parity=none stopbit=1bit
-	#define BAUDRATE1				2400		//UART1ボーレート
+	#define BAUDRATE1				9600		//UART1ボーレート
 	#define	FORMAT_DATALEN			   8		//電文長さ
 #elif	FORMAT_RCB4
 	#define	UARTPARAM1			UARTPARAM_E81	//data=8bit parity=Even stopbit=1bit
