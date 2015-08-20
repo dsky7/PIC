@@ -251,7 +251,13 @@ int main(int argc, char** argv)
 ////    if(PCONbits.nBOR==0){    SerialLED(200,200,200);__delay_ms(1000);PCONbits.nBOR=1;}
 ////    if(PCONbits.STKOVF==0){    SerialLED(200,0,200);__delay_ms(1000);}
 
-
+    while(1){
+            INJECT_OUTPUT = 1;
+        //__delay_ms(2);
+        __delay_ms(1);
+        INJECT_OUTPUT = 0;
+        __delay_ms(10);    
+    }
 
     while(1)
     {
@@ -422,8 +428,9 @@ void Inject()
         StartBeepHigh();
         B_LED_ON();
         INJECT_OUTPUT = 1;
-        __delay_ms(2);
+        //__delay_ms(2);
         __delay_us(300);
+//        __delay_us(300);
         INJECT_OUTPUT = 0;
         __delay_ms(1000);
         B_LED_OFF();

@@ -1,7 +1,7 @@
 
 # 1 "main.c"
 
-# 47 "C:\Program Files\Microchip\xc8\v1.32\include\pic16f1823.h"
+# 49 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic16f1823.h"
 extern volatile unsigned char INDF0 @ 0x000;
 
 asm("INDF0 equ 00h");
@@ -14,7 +14,7 @@ unsigned INDF0 :8;
 } INDF0bits_t;
 extern volatile INDF0bits_t INDF0bits @ 0x000;
 
-# 66
+# 68
 extern volatile unsigned char INDF1 @ 0x001;
 
 asm("INDF1 equ 01h");
@@ -27,7 +27,7 @@ unsigned INDF1 :8;
 } INDF1bits_t;
 extern volatile INDF1bits_t INDF1bits @ 0x001;
 
-# 85
+# 87
 extern volatile unsigned char PCL @ 0x002;
 
 asm("PCL equ 02h");
@@ -40,7 +40,7 @@ unsigned PCL :8;
 } PCLbits_t;
 extern volatile PCLbits_t PCLbits @ 0x002;
 
-# 104
+# 106
 extern volatile unsigned char STATUS @ 0x003;
 
 asm("STATUS equ 03h");
@@ -64,7 +64,7 @@ unsigned ZERO :1;
 } STATUSbits_t;
 extern volatile STATUSbits_t STATUSbits @ 0x003;
 
-# 164
+# 166
 extern volatile unsigned short FSR0 @ 0x004;
 
 
@@ -80,7 +80,7 @@ unsigned FSR0L :8;
 } FSR0Lbits_t;
 extern volatile FSR0Lbits_t FSR0Lbits @ 0x004;
 
-# 186
+# 188
 extern volatile unsigned char FSR0H @ 0x005;
 
 asm("FSR0H equ 05h");
@@ -93,7 +93,7 @@ unsigned FSR0H :8;
 } FSR0Hbits_t;
 extern volatile FSR0Hbits_t FSR0Hbits @ 0x005;
 
-# 205
+# 207
 extern volatile unsigned short FSR1 @ 0x006;
 
 
@@ -109,7 +109,7 @@ unsigned FSR1L :8;
 } FSR1Lbits_t;
 extern volatile FSR1Lbits_t FSR1Lbits @ 0x006;
 
-# 227
+# 229
 extern volatile unsigned char FSR1H @ 0x007;
 
 asm("FSR1H equ 07h");
@@ -122,7 +122,7 @@ unsigned FSR1H :8;
 } FSR1Hbits_t;
 extern volatile FSR1Hbits_t FSR1Hbits @ 0x007;
 
-# 246
+# 248
 extern volatile unsigned char BSR @ 0x008;
 
 asm("BSR equ 08h");
@@ -142,7 +142,7 @@ unsigned BSR :5;
 } BSRbits_t;
 extern volatile BSRbits_t BSRbits @ 0x008;
 
-# 297
+# 299
 extern volatile unsigned char WREG @ 0x009;
 
 asm("WREG equ 09h");
@@ -155,7 +155,7 @@ unsigned WREG0 :8;
 } WREGbits_t;
 extern volatile WREGbits_t WREGbits @ 0x009;
 
-# 316
+# 318
 extern volatile unsigned char PCLATH @ 0x00A;
 
 asm("PCLATH equ 0Ah");
@@ -168,7 +168,7 @@ unsigned PCLATH :7;
 } PCLATHbits_t;
 extern volatile PCLATHbits_t PCLATHbits @ 0x00A;
 
-# 335
+# 337
 extern volatile unsigned char INTCON @ 0x00B;
 
 asm("INTCON equ 0Bh");
@@ -194,7 +194,7 @@ unsigned T0IE :1;
 } INTCONbits_t;
 extern volatile INTCONbits_t INTCONbits @ 0x00B;
 
-# 412
+# 414
 extern volatile unsigned char PORTA @ 0x00C;
 
 asm("PORTA equ 0Ch");
@@ -262,7 +262,7 @@ unsigned CLKIN :1;
 } PORTAbits_t;
 extern volatile PORTAbits_t PORTAbits @ 0x00C;
 
-# 666
+# 668
 extern volatile unsigned char PORTC @ 0x00E;
 
 asm("PORTC equ 0Eh");
@@ -332,7 +332,7 @@ unsigned DT :1;
 } PORTCbits_t;
 extern volatile PORTCbits_t PORTCbits @ 0x00E;
 
-# 932
+# 934
 extern volatile unsigned char PIR1 @ 0x011;
 
 asm("PIR1 equ 011h");
@@ -352,7 +352,7 @@ unsigned TMR1GIF :1;
 } PIR1bits_t;
 extern volatile PIR1bits_t PIR1bits @ 0x011;
 
-# 993
+# 995
 extern volatile unsigned char PIR2 @ 0x012;
 
 asm("PIR2 equ 012h");
@@ -370,7 +370,7 @@ unsigned OSFIF :1;
 } PIR2bits_t;
 extern volatile PIR2bits_t PIR2bits @ 0x012;
 
-# 1037
+# 1039
 extern volatile unsigned char TMR0 @ 0x015;
 
 asm("TMR0 equ 015h");
@@ -383,7 +383,7 @@ unsigned TMR0 :8;
 } TMR0bits_t;
 extern volatile TMR0bits_t TMR0bits @ 0x015;
 
-# 1056
+# 1058
 extern volatile unsigned short TMR1 @ 0x016;
 
 asm("TMR1 equ 016h");
@@ -402,7 +402,7 @@ unsigned TMR1L :8;
 } TMR1Lbits_t;
 extern volatile TMR1Lbits_t TMR1Lbits @ 0x016;
 
-# 1081
+# 1083
 extern volatile unsigned char TMR1H @ 0x017;
 
 asm("TMR1H equ 017h");
@@ -415,7 +415,7 @@ unsigned TMR1H :8;
 } TMR1Hbits_t;
 extern volatile TMR1Hbits_t TMR1Hbits @ 0x017;
 
-# 1100
+# 1102
 extern volatile unsigned char T1CON @ 0x018;
 
 asm("T1CON equ 018h");
@@ -440,7 +440,7 @@ unsigned TMR1CS :2;
 } T1CONbits_t;
 extern volatile T1CONbits_t T1CONbits @ 0x018;
 
-# 1171
+# 1173
 extern volatile unsigned char T1GCON @ 0x019;
 
 asm("T1GCON equ 019h");
@@ -465,7 +465,7 @@ unsigned T1GGO :1;
 } T1GCONbits_t;
 extern volatile T1GCONbits_t T1GCONbits @ 0x019;
 
-# 1247
+# 1249
 extern volatile unsigned char TMR2 @ 0x01A;
 
 asm("TMR2 equ 01Ah");
@@ -478,7 +478,7 @@ unsigned TMR2 :8;
 } TMR2bits_t;
 extern volatile TMR2bits_t TMR2bits @ 0x01A;
 
-# 1266
+# 1268
 extern volatile unsigned char PR2 @ 0x01B;
 
 asm("PR2 equ 01Bh");
@@ -491,7 +491,7 @@ unsigned PR2 :8;
 } PR2bits_t;
 extern volatile PR2bits_t PR2bits @ 0x01B;
 
-# 1285
+# 1287
 extern volatile unsigned char T2CON @ 0x01C;
 
 asm("T2CON equ 01Ch");
@@ -515,7 +515,7 @@ unsigned T2OUTPS :4;
 } T2CONbits_t;
 extern volatile T2CONbits_t T2CONbits @ 0x01C;
 
-# 1355
+# 1357
 extern volatile unsigned char CPSCON0 @ 0x01E;
 
 asm("CPSCON0 equ 01Eh");
@@ -538,7 +538,7 @@ unsigned CPSRNG :2;
 } CPSCON0bits_t;
 extern volatile CPSCON0bits_t CPSCON0bits @ 0x01E;
 
-# 1414
+# 1416
 extern volatile unsigned char CPSCON1 @ 0x01F;
 
 asm("CPSCON1 equ 01Fh");
@@ -557,7 +557,7 @@ unsigned CPSCH :4;
 } CPSCON1bits_t;
 extern volatile CPSCON1bits_t CPSCON1bits @ 0x01F;
 
-# 1459
+# 1461
 extern volatile unsigned char TRISA @ 0x08C;
 
 asm("TRISA equ 08Ch");
@@ -575,7 +575,7 @@ unsigned TRISA5 :1;
 } TRISAbits_t;
 extern volatile TRISAbits_t TRISAbits @ 0x08C;
 
-# 1508
+# 1510
 extern volatile unsigned char TRISC @ 0x08E;
 
 asm("TRISC equ 08Eh");
@@ -593,7 +593,7 @@ unsigned TRISC5 :1;
 } TRISCbits_t;
 extern volatile TRISCbits_t TRISCbits @ 0x08E;
 
-# 1557
+# 1559
 extern volatile unsigned char PIE1 @ 0x091;
 
 asm("PIE1 equ 091h");
@@ -613,7 +613,7 @@ unsigned TMR1GIE :1;
 } PIE1bits_t;
 extern volatile PIE1bits_t PIE1bits @ 0x091;
 
-# 1618
+# 1620
 extern volatile unsigned char PIE2 @ 0x092;
 
 asm("PIE2 equ 092h");
@@ -631,7 +631,7 @@ unsigned OSFIE :1;
 } PIE2bits_t;
 extern volatile PIE2bits_t PIE2bits @ 0x092;
 
-# 1662
+# 1664
 extern volatile unsigned char OPTION_REG @ 0x095;
 
 asm("OPTION_REG equ 095h");
@@ -657,7 +657,7 @@ unsigned T0CS :1;
 } OPTION_REGbits_t;
 extern volatile OPTION_REGbits_t OPTION_REGbits @ 0x095;
 
-# 1744
+# 1746
 extern volatile unsigned char PCON @ 0x096;
 
 asm("PCON equ 096h");
@@ -676,7 +676,7 @@ unsigned STKOVF :1;
 } PCONbits_t;
 extern volatile PCONbits_t PCONbits @ 0x096;
 
-# 1794
+# 1796
 extern volatile unsigned char WDTCON @ 0x097;
 
 asm("WDTCON equ 097h");
@@ -698,7 +698,7 @@ unsigned WDTPS :5;
 } WDTCONbits_t;
 extern volatile WDTCONbits_t WDTCONbits @ 0x097;
 
-# 1852
+# 1854
 extern volatile unsigned char OSCTUNE @ 0x098;
 
 asm("OSCTUNE equ 098h");
@@ -719,7 +719,7 @@ unsigned TUN :6;
 } OSCTUNEbits_t;
 extern volatile OSCTUNEbits_t OSCTUNEbits @ 0x098;
 
-# 1909
+# 1911
 extern volatile unsigned char OSCCON @ 0x099;
 
 asm("OSCCON equ 099h");
@@ -744,7 +744,7 @@ unsigned IRCF :4;
 } OSCCONbits_t;
 extern volatile OSCCONbits_t OSCCONbits @ 0x099;
 
-# 1980
+# 1982
 extern volatile unsigned char OSCSTAT @ 0x09A;
 
 asm("OSCSTAT equ 09Ah");
@@ -764,7 +764,7 @@ unsigned T1OSCR :1;
 } OSCSTATbits_t;
 extern volatile OSCSTATbits_t OSCSTATbits @ 0x09A;
 
-# 2041
+# 2043
 extern volatile unsigned short ADRES @ 0x09B;
 
 asm("ADRES equ 09Bh");
@@ -783,7 +783,7 @@ unsigned ADRESL :8;
 } ADRESLbits_t;
 extern volatile ADRESLbits_t ADRESLbits @ 0x09B;
 
-# 2066
+# 2068
 extern volatile unsigned char ADRESH @ 0x09C;
 
 asm("ADRESH equ 09Ch");
@@ -796,7 +796,7 @@ unsigned ADRESH :8;
 } ADRESHbits_t;
 extern volatile ADRESHbits_t ADRESHbits @ 0x09C;
 
-# 2085
+# 2087
 extern volatile unsigned char ADCON0 @ 0x09D;
 
 asm("ADCON0 equ 09Dh");
@@ -828,7 +828,7 @@ unsigned nDONE :1;
 } ADCON0bits_t;
 extern volatile ADCON0bits_t ADCON0bits @ 0x09D;
 
-# 2173
+# 2175
 extern volatile unsigned char ADCON1 @ 0x09E;
 
 asm("ADCON1 equ 09Eh");
@@ -852,7 +852,7 @@ unsigned ADCS :3;
 } ADCON1bits_t;
 extern volatile ADCON1bits_t ADCON1bits @ 0x09E;
 
-# 2238
+# 2240
 extern volatile unsigned char LATA @ 0x10C;
 
 asm("LATA equ 010Ch");
@@ -870,7 +870,7 @@ unsigned LATA5 :1;
 } LATAbits_t;
 extern volatile LATAbits_t LATAbits @ 0x10C;
 
-# 2282
+# 2284
 extern volatile unsigned char LATC @ 0x10E;
 
 asm("LATC equ 010Eh");
@@ -888,7 +888,7 @@ unsigned LATC5 :1;
 } LATCbits_t;
 extern volatile LATCbits_t LATCbits @ 0x10E;
 
-# 2331
+# 2333
 extern volatile unsigned char CM1CON0 @ 0x111;
 
 asm("CM1CON0 equ 0111h");
@@ -908,7 +908,7 @@ unsigned C1ON :1;
 } CM1CON0bits_t;
 extern volatile CM1CON0bits_t CM1CON0bits @ 0x111;
 
-# 2387
+# 2389
 extern volatile unsigned char CM1CON1 @ 0x112;
 
 asm("CM1CON1 equ 0112h");
@@ -932,7 +932,7 @@ unsigned C1PCH :2;
 } CM1CON1bits_t;
 extern volatile CM1CON1bits_t CM1CON1bits @ 0x112;
 
-# 2452
+# 2454
 extern volatile unsigned char CM2CON0 @ 0x113;
 
 asm("CM2CON0 equ 0113h");
@@ -952,7 +952,7 @@ unsigned C2ON :1;
 } CM2CON0bits_t;
 extern volatile CM2CON0bits_t CM2CON0bits @ 0x113;
 
-# 2508
+# 2510
 extern volatile unsigned char CM2CON1 @ 0x114;
 
 asm("CM2CON1 equ 0114h");
@@ -976,7 +976,7 @@ unsigned C2PCH :2;
 } CM2CON1bits_t;
 extern volatile CM2CON1bits_t CM2CON1bits @ 0x114;
 
-# 2573
+# 2575
 extern volatile unsigned char CMOUT @ 0x115;
 
 asm("CMOUT equ 0115h");
@@ -990,7 +990,7 @@ unsigned MC2OUT :1;
 } CMOUTbits_t;
 extern volatile CMOUTbits_t CMOUTbits @ 0x115;
 
-# 2598
+# 2600
 extern volatile unsigned char BORCON @ 0x116;
 
 asm("BORCON equ 0116h");
@@ -1005,7 +1005,7 @@ unsigned SBOREN :1;
 } BORCONbits_t;
 extern volatile BORCONbits_t BORCONbits @ 0x116;
 
-# 2624
+# 2626
 extern volatile unsigned char FVRCON @ 0x117;
 
 asm("FVRCON equ 0117h");
@@ -1029,7 +1029,7 @@ unsigned CDAFVR :2;
 } FVRCONbits_t;
 extern volatile FVRCONbits_t FVRCONbits @ 0x117;
 
-# 2699
+# 2701
 extern volatile unsigned char DACCON0 @ 0x118;
 
 asm("DACCON0 equ 0118h");
@@ -1052,7 +1052,7 @@ unsigned DACPSS :2;
 } DACCON0bits_t;
 extern volatile DACCON0bits_t DACCON0bits @ 0x118;
 
-# 2753
+# 2755
 extern volatile unsigned char DACCON1 @ 0x119;
 
 asm("DACCON1 equ 0119h");
@@ -1072,7 +1072,7 @@ unsigned DACR :5;
 } DACCON1bits_t;
 extern volatile DACCON1bits_t DACCON1bits @ 0x119;
 
-# 2804
+# 2806
 extern volatile unsigned char SRCON0 @ 0x11A;
 
 asm("SRCON0 equ 011Ah");
@@ -1096,7 +1096,7 @@ unsigned SRCLK :3;
 } SRCON0bits_t;
 extern volatile SRCON0bits_t SRCON0bits @ 0x11A;
 
-# 2874
+# 2876
 extern volatile unsigned char SRCON1 @ 0x11B;
 
 asm("SRCON1 equ 011Bh");
@@ -1116,7 +1116,7 @@ unsigned SRSPE :1;
 } SRCON1bits_t;
 extern volatile SRCON1bits_t SRCON1bits @ 0x11B;
 
-# 2935
+# 2937
 extern volatile unsigned char APFCON @ 0x11D;
 
 asm("APFCON equ 011Dh");
@@ -1146,7 +1146,7 @@ unsigned SDO1SEL :1;
 } APFCONbits_t;
 extern volatile APFCONbits_t APFCONbits @ 0x11D;
 
-# 3010
+# 3012
 typedef union {
 struct {
 unsigned CCP1SEL :1;
@@ -1166,7 +1166,7 @@ unsigned SDO1SEL :1;
 } APFCON0bits_t;
 extern volatile APFCON0bits_t APFCON0bits @ 0x11D;
 
-# 3076
+# 3078
 extern volatile unsigned char ANSELA @ 0x18C;
 
 asm("ANSELA equ 018Ch");
@@ -1186,7 +1186,7 @@ unsigned ANSELA :5;
 } ANSELAbits_t;
 extern volatile ANSELAbits_t ANSELAbits @ 0x18C;
 
-# 3122
+# 3124
 extern volatile unsigned char ANSELC @ 0x18E;
 
 asm("ANSELC equ 018Eh");
@@ -1205,7 +1205,7 @@ unsigned ANSC :4;
 } ANSELCbits_t;
 extern volatile ANSELCbits_t ANSELCbits @ 0x18E;
 
-# 3167
+# 3169
 extern volatile unsigned short EEADR @ 0x191;
 
 asm("EEADR equ 0191h");
@@ -1224,7 +1224,7 @@ unsigned EEADRL :8;
 } EEADRLbits_t;
 extern volatile EEADRLbits_t EEADRLbits @ 0x191;
 
-# 3192
+# 3194
 extern volatile unsigned char EEADRH @ 0x192;
 
 asm("EEADRH equ 0192h");
@@ -1237,7 +1237,7 @@ unsigned EEADRH :7;
 } EEADRHbits_t;
 extern volatile EEADRHbits_t EEADRHbits @ 0x192;
 
-# 3211
+# 3213
 extern volatile unsigned short EEDAT @ 0x193;
 
 asm("EEDAT equ 0193h");
@@ -1261,7 +1261,7 @@ unsigned EEDATL :8;
 } EEDATLbits_t;
 extern volatile EEDATLbits_t EEDATLbits @ 0x193;
 
-# 3240
+# 3242
 typedef union {
 struct {
 unsigned EEDATL :8;
@@ -1269,7 +1269,7 @@ unsigned EEDATL :8;
 } EEDATAbits_t;
 extern volatile EEDATAbits_t EEDATAbits @ 0x193;
 
-# 3254
+# 3256
 extern volatile unsigned char EEDATH @ 0x194;
 
 asm("EEDATH equ 0194h");
@@ -1282,7 +1282,7 @@ unsigned EEDATH :6;
 } EEDATHbits_t;
 extern volatile EEDATHbits_t EEDATHbits @ 0x194;
 
-# 3273
+# 3275
 extern volatile unsigned char EECON1 @ 0x195;
 
 asm("EECON1 equ 0195h");
@@ -1302,7 +1302,7 @@ unsigned EEPGD :1;
 } EECON1bits_t;
 extern volatile EECON1bits_t EECON1bits @ 0x195;
 
-# 3334
+# 3336
 extern volatile unsigned char EECON2 @ 0x196;
 
 asm("EECON2 equ 0196h");
@@ -1315,7 +1315,7 @@ unsigned EECON2 :8;
 } EECON2bits_t;
 extern volatile EECON2bits_t EECON2bits @ 0x196;
 
-# 3353
+# 3355
 extern volatile unsigned char RCREG @ 0x199;
 
 asm("RCREG equ 0199h");
@@ -1328,7 +1328,7 @@ unsigned RCREG :8;
 } RCREGbits_t;
 extern volatile RCREGbits_t RCREGbits @ 0x199;
 
-# 3372
+# 3374
 extern volatile unsigned char TXREG @ 0x19A;
 
 asm("TXREG equ 019Ah");
@@ -1341,7 +1341,7 @@ unsigned TXREG :8;
 } TXREGbits_t;
 extern volatile TXREGbits_t TXREGbits @ 0x19A;
 
-# 3391
+# 3393
 extern volatile unsigned short SP1BRG @ 0x19B;
 
 asm("SP1BRG equ 019Bh");
@@ -1369,7 +1369,7 @@ unsigned SPBRGL :8;
 } SP1BRGLbits_t;
 extern volatile SP1BRGLbits_t SP1BRGLbits @ 0x19B;
 
-# 3424
+# 3426
 typedef union {
 struct {
 unsigned SPBRGL :8;
@@ -1377,7 +1377,7 @@ unsigned SPBRGL :8;
 } SPBRGbits_t;
 extern volatile SPBRGbits_t SPBRGbits @ 0x19B;
 
-# 3436
+# 3438
 typedef union {
 struct {
 unsigned SPBRGL :8;
@@ -1385,7 +1385,7 @@ unsigned SPBRGL :8;
 } SPBRGLbits_t;
 extern volatile SPBRGLbits_t SPBRGLbits @ 0x19B;
 
-# 3450
+# 3452
 extern volatile unsigned char SP1BRGH @ 0x19C;
 
 asm("SP1BRGH equ 019Ch");
@@ -1403,7 +1403,7 @@ unsigned SPBRGH :8;
 } SP1BRGHbits_t;
 extern volatile SP1BRGHbits_t SP1BRGHbits @ 0x19C;
 
-# 3473
+# 3475
 typedef union {
 struct {
 unsigned SPBRGH :8;
@@ -1411,7 +1411,7 @@ unsigned SPBRGH :8;
 } SPBRGHbits_t;
 extern volatile SPBRGHbits_t SPBRGHbits @ 0x19C;
 
-# 3487
+# 3489
 extern volatile unsigned char RCSTA @ 0x19D;
 
 asm("RCSTA equ 019Dh");
@@ -1431,7 +1431,7 @@ unsigned SPEN :1;
 } RCSTAbits_t;
 extern volatile RCSTAbits_t RCSTAbits @ 0x19D;
 
-# 3548
+# 3550
 extern volatile unsigned char TXSTA @ 0x19E;
 
 asm("TXSTA equ 019Eh");
@@ -1451,7 +1451,7 @@ unsigned CSRC :1;
 } TXSTAbits_t;
 extern volatile TXSTAbits_t TXSTAbits @ 0x19E;
 
-# 3609
+# 3611
 extern volatile unsigned char BAUDCON @ 0x19F;
 
 asm("BAUDCON equ 019Fh");
@@ -1471,7 +1471,7 @@ unsigned ABDOVF :1;
 } BAUDCONbits_t;
 extern volatile BAUDCONbits_t BAUDCONbits @ 0x19F;
 
-# 3660
+# 3662
 extern volatile unsigned char WPUA @ 0x20C;
 
 asm("WPUA equ 020Ch");
@@ -1492,7 +1492,7 @@ unsigned WPUA :6;
 } WPUAbits_t;
 extern volatile WPUAbits_t WPUAbits @ 0x20C;
 
-# 3717
+# 3719
 extern volatile unsigned char WPUC @ 0x20E;
 
 asm("WPUC equ 020Eh");
@@ -1513,7 +1513,7 @@ unsigned WPUC :6;
 } WPUCbits_t;
 extern volatile WPUCbits_t WPUCbits @ 0x20E;
 
-# 3774
+# 3776
 extern volatile unsigned char SSP1BUF @ 0x211;
 
 asm("SSP1BUF equ 0211h");
@@ -1531,7 +1531,7 @@ unsigned SSPBUF :8;
 } SSP1BUFbits_t;
 extern volatile SSP1BUFbits_t SSP1BUFbits @ 0x211;
 
-# 3797
+# 3799
 typedef union {
 struct {
 unsigned SSPBUF :8;
@@ -1539,7 +1539,7 @@ unsigned SSPBUF :8;
 } SSPBUFbits_t;
 extern volatile SSPBUFbits_t SSPBUFbits @ 0x211;
 
-# 3811
+# 3813
 extern volatile unsigned char SSP1ADD @ 0x212;
 
 asm("SSP1ADD equ 0212h");
@@ -1557,7 +1557,7 @@ unsigned SSPADD :8;
 } SSP1ADDbits_t;
 extern volatile SSP1ADDbits_t SSP1ADDbits @ 0x212;
 
-# 3834
+# 3836
 typedef union {
 struct {
 unsigned SSPADD :8;
@@ -1565,7 +1565,7 @@ unsigned SSPADD :8;
 } SSPADDbits_t;
 extern volatile SSPADDbits_t SSPADDbits @ 0x212;
 
-# 3848
+# 3850
 extern volatile unsigned char SSP1MSK @ 0x213;
 
 asm("SSP1MSK equ 0213h");
@@ -1583,7 +1583,7 @@ unsigned SSPMSK :8;
 } SSP1MSKbits_t;
 extern volatile SSP1MSKbits_t SSP1MSKbits @ 0x213;
 
-# 3871
+# 3873
 typedef union {
 struct {
 unsigned SSPMSK :8;
@@ -1591,7 +1591,7 @@ unsigned SSPMSK :8;
 } SSPMSKbits_t;
 extern volatile SSPMSKbits_t SSPMSKbits @ 0x213;
 
-# 3885
+# 3887
 extern volatile unsigned char SSP1STAT @ 0x214;
 
 asm("SSP1STAT equ 0214h");
@@ -1616,7 +1616,7 @@ unsigned SMP :1;
 } SSP1STATbits_t;
 extern volatile SSP1STATbits_t SSP1STATbits @ 0x214;
 
-# 3950
+# 3952
 typedef union {
 struct {
 unsigned BF :1;
@@ -1631,7 +1631,7 @@ unsigned SMP :1;
 } SSPSTATbits_t;
 extern volatile SSPSTATbits_t SSPSTATbits @ 0x214;
 
-# 4006
+# 4008
 extern volatile unsigned char SSP1CON1 @ 0x215;
 
 asm("SSP1CON1 equ 0215h");
@@ -1663,7 +1663,7 @@ unsigned SSPM :4;
 } SSP1CON1bits_t;
 extern volatile SSP1CON1bits_t SSP1CON1bits @ 0x215;
 
-# 4083
+# 4085
 typedef union {
 struct {
 unsigned SSPM0 :1;
@@ -1681,7 +1681,7 @@ unsigned SSPM :4;
 } SSPCON1bits_t;
 extern volatile SSPCON1bits_t SSPCON1bits @ 0x215;
 
-# 4145
+# 4147
 typedef union {
 struct {
 unsigned SSPM0 :1;
@@ -1699,7 +1699,7 @@ unsigned SSPM :4;
 } SSPCONbits_t;
 extern volatile SSPCONbits_t SSPCONbits @ 0x215;
 
-# 4209
+# 4211
 extern volatile unsigned char SSP1CON2 @ 0x216;
 
 asm("SSP1CON2 equ 0216h");
@@ -1724,7 +1724,7 @@ unsigned GCEN :1;
 } SSP1CON2bits_t;
 extern volatile SSP1CON2bits_t SSP1CON2bits @ 0x216;
 
-# 4274
+# 4276
 typedef union {
 struct {
 unsigned SEN :1;
@@ -1739,7 +1739,7 @@ unsigned GCEN :1;
 } SSPCON2bits_t;
 extern volatile SSPCON2bits_t SSPCON2bits @ 0x216;
 
-# 4330
+# 4332
 extern volatile unsigned char SSP1CON3 @ 0x217;
 
 asm("SSP1CON3 equ 0217h");
@@ -1764,7 +1764,7 @@ unsigned ACKTIM :1;
 } SSP1CON3bits_t;
 extern volatile SSP1CON3bits_t SSP1CON3bits @ 0x217;
 
-# 4395
+# 4397
 typedef union {
 struct {
 unsigned DHEN :1;
@@ -1779,7 +1779,7 @@ unsigned ACKTIM :1;
 } SSPCON3bits_t;
 extern volatile SSPCON3bits_t SSPCON3bits @ 0x217;
 
-# 4451
+# 4453
 extern volatile unsigned short CCPR1 @ 0x291;
 
 asm("CCPR1 equ 0291h");
@@ -1798,7 +1798,7 @@ unsigned CCPR1L :8;
 } CCPR1Lbits_t;
 extern volatile CCPR1Lbits_t CCPR1Lbits @ 0x291;
 
-# 4476
+# 4478
 extern volatile unsigned char CCPR1H @ 0x292;
 
 asm("CCPR1H equ 0292h");
@@ -1811,7 +1811,7 @@ unsigned CCPR1H :8;
 } CCPR1Hbits_t;
 extern volatile CCPR1Hbits_t CCPR1Hbits @ 0x292;
 
-# 4495
+# 4497
 extern volatile unsigned char CCP1CON @ 0x293;
 
 asm("CCP1CON equ 0293h");
@@ -1836,7 +1836,7 @@ unsigned P1M :2;
 } CCP1CONbits_t;
 extern volatile CCP1CONbits_t CCP1CONbits @ 0x293;
 
-# 4576
+# 4578
 extern volatile unsigned char PWM1CON @ 0x294;
 
 asm("PWM1CON equ 0294h");
@@ -1859,7 +1859,7 @@ unsigned P1DC :7;
 } PWM1CONbits_t;
 extern volatile PWM1CONbits_t PWM1CONbits @ 0x294;
 
-# 4645
+# 4647
 extern volatile unsigned char CCP1AS @ 0x295;
 
 asm("CCP1AS equ 0295h");
@@ -1889,7 +1889,7 @@ unsigned CCP1AS :3;
 } CCP1ASbits_t;
 extern volatile CCP1ASbits_t CCP1ASbits @ 0x295;
 
-# 4730
+# 4732
 typedef union {
 struct {
 unsigned PSS1BD0 :1;
@@ -1909,7 +1909,7 @@ unsigned CCP1AS :3;
 } ECCP1ASbits_t;
 extern volatile ECCP1ASbits_t ECCP1ASbits @ 0x295;
 
-# 4806
+# 4808
 extern volatile unsigned char PSTR1CON @ 0x296;
 
 asm("PSTR1CON equ 0296h");
@@ -1926,7 +1926,7 @@ unsigned STR1SYNC :1;
 } PSTR1CONbits_t;
 extern volatile PSTR1CONbits_t PSTR1CONbits @ 0x296;
 
-# 4849
+# 4851
 extern volatile unsigned char IOCAP @ 0x391;
 
 asm("IOCAP equ 0391h");
@@ -1947,7 +1947,7 @@ unsigned IOCAP :6;
 } IOCAPbits_t;
 extern volatile IOCAPbits_t IOCAPbits @ 0x391;
 
-# 4906
+# 4908
 extern volatile unsigned char IOCAN @ 0x392;
 
 asm("IOCAN equ 0392h");
@@ -1968,7 +1968,7 @@ unsigned IOCAN :6;
 } IOCANbits_t;
 extern volatile IOCANbits_t IOCANbits @ 0x392;
 
-# 4963
+# 4965
 extern volatile unsigned char IOCAF @ 0x393;
 
 asm("IOCAF equ 0393h");
@@ -1989,7 +1989,7 @@ unsigned IOCAF :6;
 } IOCAFbits_t;
 extern volatile IOCAFbits_t IOCAFbits @ 0x393;
 
-# 5020
+# 5022
 extern volatile unsigned char CLKRCON @ 0x39A;
 
 asm("CLKRCON equ 039Ah");
@@ -2013,7 +2013,7 @@ unsigned CLKRDC :2;
 } CLKRCONbits_t;
 extern volatile CLKRCONbits_t CLKRCONbits @ 0x39A;
 
-# 5095
+# 5097
 extern volatile unsigned char MDCON @ 0x39C;
 
 asm("MDCON equ 039Ch");
@@ -2032,7 +2032,7 @@ unsigned MDEN :1;
 } MDCONbits_t;
 extern volatile MDCONbits_t MDCONbits @ 0x39C;
 
-# 5145
+# 5147
 extern volatile unsigned char MDSRC @ 0x39D;
 
 asm("MDSRC equ 039Dh");
@@ -2053,7 +2053,7 @@ unsigned MDMS :4;
 } MDSRCbits_t;
 extern volatile MDSRCbits_t MDSRCbits @ 0x39D;
 
-# 5197
+# 5199
 extern volatile unsigned char MDCARL @ 0x39E;
 
 asm("MDCARL equ 039Eh");
@@ -2076,7 +2076,7 @@ unsigned MDCL :4;
 } MDCARLbits_t;
 extern volatile MDCARLbits_t MDCARLbits @ 0x39E;
 
-# 5261
+# 5263
 extern volatile unsigned char MDCARH @ 0x39F;
 
 asm("MDCARH equ 039Fh");
@@ -2099,7 +2099,7 @@ unsigned MDCH :4;
 } MDCARHbits_t;
 extern volatile MDCARHbits_t MDCARHbits @ 0x39F;
 
-# 5325
+# 5327
 extern volatile unsigned char STATUS_SHAD @ 0xFE4;
 
 asm("STATUS_SHAD equ 0FE4h");
@@ -2114,7 +2114,7 @@ unsigned Z_SHAD :1;
 } STATUS_SHADbits_t;
 extern volatile STATUS_SHADbits_t STATUS_SHADbits @ 0xFE4;
 
-# 5356
+# 5358
 extern volatile unsigned char WREG_SHAD @ 0xFE5;
 
 asm("WREG_SHAD equ 0FE5h");
@@ -2127,7 +2127,7 @@ unsigned WREG_SHAD :8;
 } WREG_SHADbits_t;
 extern volatile WREG_SHADbits_t WREG_SHADbits @ 0xFE5;
 
-# 5375
+# 5377
 extern volatile unsigned char BSR_SHAD @ 0xFE6;
 
 asm("BSR_SHAD equ 0FE6h");
@@ -2140,7 +2140,7 @@ unsigned BSR_SHAD :5;
 } BSR_SHADbits_t;
 extern volatile BSR_SHADbits_t BSR_SHADbits @ 0xFE6;
 
-# 5394
+# 5396
 extern volatile unsigned char PCLATH_SHAD @ 0xFE7;
 
 asm("PCLATH_SHAD equ 0FE7h");
@@ -2153,7 +2153,7 @@ unsigned PCLATH_SHAD :7;
 } PCLATH_SHADbits_t;
 extern volatile PCLATH_SHADbits_t PCLATH_SHADbits @ 0xFE7;
 
-# 5413
+# 5415
 extern volatile unsigned char FSR0L_SHAD @ 0xFE8;
 
 asm("FSR0L_SHAD equ 0FE8h");
@@ -2166,7 +2166,7 @@ unsigned FSR0L_SHAD :8;
 } FSR0L_SHADbits_t;
 extern volatile FSR0L_SHADbits_t FSR0L_SHADbits @ 0xFE8;
 
-# 5432
+# 5434
 extern volatile unsigned char FSR0H_SHAD @ 0xFE9;
 
 asm("FSR0H_SHAD equ 0FE9h");
@@ -2179,7 +2179,7 @@ unsigned FSR0H_SHAD :8;
 } FSR0H_SHADbits_t;
 extern volatile FSR0H_SHADbits_t FSR0H_SHADbits @ 0xFE9;
 
-# 5451
+# 5453
 extern volatile unsigned char FSR1L_SHAD @ 0xFEA;
 
 asm("FSR1L_SHAD equ 0FEAh");
@@ -2192,7 +2192,7 @@ unsigned FSR1L_SHAD :8;
 } FSR1L_SHADbits_t;
 extern volatile FSR1L_SHADbits_t FSR1L_SHADbits @ 0xFEA;
 
-# 5470
+# 5472
 extern volatile unsigned char FSR1H_SHAD @ 0xFEB;
 
 asm("FSR1H_SHAD equ 0FEBh");
@@ -2205,7 +2205,7 @@ unsigned FSR1H_SHAD :8;
 } FSR1H_SHADbits_t;
 extern volatile FSR1H_SHADbits_t FSR1H_SHADbits @ 0xFEB;
 
-# 5489
+# 5491
 extern volatile unsigned char STKPTR @ 0xFED;
 
 asm("STKPTR equ 0FEDh");
@@ -2218,7 +2218,7 @@ unsigned STKPTR :5;
 } STKPTRbits_t;
 extern volatile STKPTRbits_t STKPTRbits @ 0xFED;
 
-# 5508
+# 5510
 extern volatile unsigned char TOSL @ 0xFEE;
 
 asm("TOSL equ 0FEEh");
@@ -2231,7 +2231,7 @@ unsigned TOSL :8;
 } TOSLbits_t;
 extern volatile TOSLbits_t TOSLbits @ 0xFEE;
 
-# 5527
+# 5529
 extern volatile unsigned char TOSH @ 0xFEF;
 
 asm("TOSH equ 0FEFh");
@@ -2244,7 +2244,7 @@ unsigned TOSH :7;
 } TOSHbits_t;
 extern volatile TOSHbits_t TOSHbits @ 0xFEF;
 
-# 5552
+# 5554
 extern volatile __bit ABDEN @ (((unsigned) &BAUDCON)*8) + 0;
 
 extern volatile __bit ABDOVF @ (((unsigned) &BAUDCON)*8) + 7;
@@ -3155,7 +3155,7 @@ extern volatile __bit nTO @ (((unsigned) &STATUS)*8) + 4;
 
 extern volatile __bit nWPUEN @ (((unsigned) &OPTION_REG)*8) + 7;
 
-# 4 "C:\Program Files\Microchip\xc8\v1.32\include\stdlib.h"
+# 4 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\stdlib.h"
 typedef int ptrdiff_t;
 typedef unsigned size_t;
 typedef unsigned short wchar_t;
@@ -3208,8 +3208,12 @@ extern void * malloc(size_t);
 extern void free(void *);
 extern void * realloc(void *, size_t);
 
-extern void abort(void);
-extern void exit(int);
+
+# 13 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\xc8debug.h"
+#pragma intrinsic(__builtin_software_breakpoint)
+extern void __builtin_software_breakpoint(void);
+
+# 98 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\stdlib.h"
 extern int atexit(void (*)(void));
 extern char * getenv(const char *);
 extern char ** environ;
@@ -3231,30 +3235,32 @@ extern char * ultoa(char * buf, unsigned long val, int base);
 
 extern char * ftoa(float f, int * status);
 
-# 21 "C:\Program Files\Microchip\xc8\v1.32\include\htc.h"
+# 26 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\htc.h"
 extern const char __xc8_OPTIM_SPEED;
 
-#pragma intrinsic(__builtin_software_breakpoint)
-extern void __builtin_software_breakpoint(void);
 
-
-# 27 "C:\Program Files\Microchip\xc8\v1.32\include\pic.h"
+# 27 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic.h"
 #pragma intrinsic(__nop)
 extern void __nop(void);
 
-# 80
+# 76
 extern unsigned int flash_read(unsigned short addr);
 
-# 41 "C:\Program Files\Microchip\xc8\v1.32\include\eeprom_routines.h"
+# 41 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\eeprom_routines.h"
 extern void eeprom_write(unsigned char addr, unsigned char value);
 extern unsigned char eeprom_read(unsigned char addr);
 extern void eecpymem(volatile unsigned char *to, __eeprom unsigned char *from, unsigned char size);
 extern void memcpyee(__eeprom unsigned char *to, const unsigned char *from, unsigned char size);
 
 
-# 153 "C:\Program Files\Microchip\xc8\v1.32\include\pic.h"
+# 149 "C:\Program Files (x86)\Microchip\xc8\v1.34\include\pic.h"
 #pragma intrinsic(_delay)
 extern __nonreentrant void _delay(unsigned long);
+
+# 184
+extern unsigned char __resetbits;
+extern __bit __powerdown;
+extern __bit __timeout;
 
 
 # 5 "main.c"
@@ -3479,7 +3485,15 @@ INTCONbits.IOCIE = 1;
 INTCONbits.PEIE = 1;
 INTCONbits.GIE = 1;
 
-# 256
+# 254
+while(1){
+LATCbits.LATC4 = 1;
+
+_delay((unsigned long)((1)*(62500/4000.0)));
+LATCbits.LATC4 = 0;
+_delay((unsigned long)((10)*(62500/4000.0)));
+}
+
 while(1)
 {
 if(PORTAbits.RA5 == nSwStat)
@@ -3649,8 +3663,9 @@ if(vBattery > 0x03ff*0.31){
 StartBeepHigh();
 B_LED_ON();
 LATCbits.LATC4 = 1;
-_delay((unsigned long)((2)*(62500/4000.0)));
+
 _delay((unsigned long)((300)*(62500/4000000.0)));
+
 LATCbits.LATC4 = 0;
 _delay((unsigned long)((1000)*(62500/4000.0)));
 B_LED_OFF();
@@ -3734,7 +3749,7 @@ if(fLED == 0){
 fLED = 1;
 StatusDisplayADC();
 
-# 520
+# 527
 TMR1H = (-1);
 TMR1L = (0);
 }else{

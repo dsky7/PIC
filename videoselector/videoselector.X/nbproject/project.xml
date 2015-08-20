@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>videoselector</name>
+            <name>videoselector2.0</name>
             <creation-uuid>932b1738-df19-4be9-a4e5-e0b2e4e4575b</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>

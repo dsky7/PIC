@@ -1,14 +1,14 @@
-Microchip MPLAB XC8 Compiler V1.32 ()
+Microchip MPLAB XC8 Compiler V1.34 ()
 
 Linker command line:
 
---edf=C:\Program Files\Microchip\xc8\v1.32\dat\en_msgs.txt -cs \
+--edf=C:\Program Files (x86)\Microchip\xc8\v1.34\dat\en_msgs.txt -cs \
   -h+dist/default/production\Injector2.0v.X.production.sym \
   --cmf=dist/default/production\Injector2.0v.X.production.cmf -z -Q16F1823 \
-  -oC:\Users\mmk2715\AppData\Local\Temp\s5r4.6 \
+  -oC:\Users\dskyNote\AppData\Local\Temp\s3n8.6 \
   -Mdist/default/production/Injector2.0v.X.production.map -E1 -ver=XC8 \
-  -ASTACK=0205Ah-0206fh -pstack=STACK -ACONST=00h-0FFhx8 -ACODE=00h-07FFh \
-  -ASTRCODE=00h-07FFh -AENTRY=00h-0FFhx8 -ASTRING=00h-0FFhx8 \
+  -ASTACK=0205Ah-0206fh -pstack=STACK -ACODE=00h-07FFh -ASTRCODE=00h-07FFh \
+  -ASTRING=00h-0FFhx8 -ACONST=00h-0FFhx8 -AENTRY=00h-0FFhx8 \
   -ACOMMON=070h-07Fh -ABANK0=020h-06Fh -ABANK1=0A0h-0BFh \
   -ABIGRAM=02000h-0206Fh -ARAM=020h-06Fh,0A0h-0BFh \
   -AABS1=020h-07Fh,0A0h-0BFh -ASFR0=00h-01Fh -ASFR1=080h-09Fh \
@@ -26,7 +26,7 @@ Linker command line:
   -pfunctab=CODE -ACONFIG=08007h-08008h -pconfig=CONFIG -DCONFIG=2 \
   -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 -AEEDATA=00h-0FFh/0F000h \
   -peeprom_data=EEDATA -DEEDATA=2 -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 \
-  -DENTRY=2 -k C:\Users\mmk2715\AppData\Local\Temp\s5r4.obj \
+  -DENTRY=2 -k C:\Users\dskyNote\AppData\Local\Temp\s3n8.obj \
   dist/default/production\Injector2.0v.X.production.obj 
 
 Object code version is 3.11
@@ -36,98 +36,98 @@ Machine type is 16F1823
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Users\mmk2715\AppData\Local\Temp\s5r4.obj
-                end_init                             4D       4D        1        8       0
+C:\Users\dskyNote\AppData\Local\Temp\s3n8.obj
+                end_init                             49       49        1        8       0
                 reset_vec                             0        0        1        0       0
                 config                             8007     8007        2    1000E       0
 dist/default/production\Injector2.0v.X.production.obj
-                cinit                                4E       4E        9        8       0
-                intentry                              4        4       49        8       0
-                text31                              602      602       1E        8       0
-                text30                              688      688       17        8       0
-                text29                              6FB      6FB        6        8       0
-                text28                              6E5      6E5        A        8       0
-                text27                              210      210       A3        8       0
-                text26                              58B      58B       35        8       0
-                text25                              4E3      4E3       3C        8       0
-                text24                              314      314       60        8       0
-                text23                              6C9      6C9       12        8       0
-                text22                              417      417       4E        8       0
-                text20                              556      556       35        8       0
-                text19                              704      704        3        8       0
-                text18                              701      701        3        8       0
-                text17                              671      671       17        8       0
-                text16                              6F5      6F5        6        8       0
-                text15                              6DB      6DB        A        8       0
-                text14                              161      161       AF        8       0
-                text13                              51F      51F       37        8       0
-                text12                              620      620       1D        8       0
-                text11                              659      659       18        8       0
-                text10                              5C0      5C0       24        8       0
-                text9                               69F      69F       16        8       0
-                text8                               4A7      4A7       3C        8       0
-                text7                               2B3      2B3       61        8       0
-                text6                               6B5      6B5       14        8       0
-                text5                               374      374       54        8       0
-                text4                               5E4      5E4       1E        8       0
-                text3                               3C8      3C8       4F        8       0
-                text2                               63D      63D       1C        8       0
-                text1                               465      465       42        8       0
-                maintext                             57       57      10A        8       0
+                cinit                                4A       4A        8        8       0
+                intentry                              4        4       45        8       0
+                text31                              617      617       1D        8       0
+                text30                              6A4      6A4       13        8       0
+                text29                              6E9      6E9        6        8       0
+                text28                              6D3      6D3        A        8       0
+                text27                              21A      21A       A3        8       0
+                text26                              551      551       35        8       0
+                text25                              4DE      4DE       3C        8       0
+                text24                              322      322       64        8       0
+                text23                              6B7      6B7       12        8       0
+                text22                              41A      41A       48        8       0
+                text20                              586      586       33        8       0
+                text19                              6F2      6F2        3        8       0
+                text18                              6EF      6EF        3        8       0
+                text17                              691      691       13        8       0
+                text16                              6E3      6E3        6        8       0
+                text15                              6C9      6C9        A        8       0
+                text14                              16B      16B       AF        8       0
+                text13                              51A      51A       37        8       0
+                text12                              5FA      5FA       1D        8       0
+                text11                              64F      64F       18        8       0
+                text10                              5B9      5B9       24        8       0
+                text9                               667      667       16        8       0
+                text8                               4A2      4A2       3C        8       0
+                text7                               2BD      2BD       65        8       0
+                text6                               67D      67D       14        8       0
+                text5                               386      386       4B        8       0
+                text4                               5DD      5DD       1D        8       0
+                text3                               3D1      3D1       49        8       0
+                text2                               634      634       1B        8       0
+                text1                               462      462       40        8       0
+                maintext                             52       52      119        8       0
                 cstackBANK0                          20       20       29       20       1
                 cstackCOMMON                         70       70        E       70       1
                 cstackBANK1                          A0       A0        A       A0       1
-                clrtext                             6EF      6EF        6        8       0
+                clrtext                             6DD      6DD        6        8       0
                 bssBANK0                             49       49       16       20       1
 
 TOTAL           Name                               Link     Load   Length     Space
         CLASS   STACK          
 
-        CLASS   CONST          
-
         CLASS   CODE           
-                end_init                             4D       4D        1         0
-                cinit                                4E       4E        9         0
-                intentry                              4        4       49         0
+                end_init                             49       49        1         0
+                cinit                                4A       4A        8         0
+                intentry                              4        4       45         0
                 reset_vec                             0        0        1         0
-                text31                              602      602       1E         0
-                text30                              688      688       17         0
-                text29                              6FB      6FB        6         0
-                text28                              6E5      6E5        A         0
-                text27                              210      210       A3         0
-                text26                              58B      58B       35         0
-                text25                              4E3      4E3       3C         0
-                text24                              314      314       60         0
-                text23                              6C9      6C9       12         0
-                text22                              417      417       4E         0
-                text20                              556      556       35         0
-                text19                              704      704        3         0
-                text18                              701      701        3         0
-                text17                              671      671       17         0
-                text16                              6F5      6F5        6         0
-                text15                              6DB      6DB        A         0
-                text14                              161      161       AF         0
-                text13                              51F      51F       37         0
-                text12                              620      620       1D         0
-                text11                              659      659       18         0
-                text10                              5C0      5C0       24         0
-                text9                               69F      69F       16         0
-                text8                               4A7      4A7       3C         0
-                text7                               2B3      2B3       61         0
-                text6                               6B5      6B5       14         0
-                text5                               374      374       54         0
-                text4                               5E4      5E4       1E         0
-                text3                               3C8      3C8       4F         0
-                text2                               63D      63D       1C         0
-                text1                               465      465       42         0
-                maintext                             57       57      10A         0
-                clrtext                             6EF      6EF        6         0
+                text31                              617      617       1D         0
+                text30                              6A4      6A4       13         0
+                text29                              6E9      6E9        6         0
+                text28                              6D3      6D3        A         0
+                text27                              21A      21A       A3         0
+                text26                              551      551       35         0
+                text25                              4DE      4DE       3C         0
+                text24                              322      322       64         0
+                text23                              6B7      6B7       12         0
+                text22                              41A      41A       48         0
+                text20                              586      586       33         0
+                text19                              6F2      6F2        3         0
+                text18                              6EF      6EF        3         0
+                text17                              691      691       13         0
+                text16                              6E3      6E3        6         0
+                text15                              6C9      6C9        A         0
+                text14                              16B      16B       AF         0
+                text13                              51A      51A       37         0
+                text12                              5FA      5FA       1D         0
+                text11                              64F      64F       18         0
+                text10                              5B9      5B9       24         0
+                text9                               667      667       16         0
+                text8                               4A2      4A2       3C         0
+                text7                               2BD      2BD       65         0
+                text6                               67D      67D       14         0
+                text5                               386      386       4B         0
+                text4                               5DD      5DD       1D         0
+                text3                               3D1      3D1       49         0
+                text2                               634      634       1B         0
+                text1                               462      462       40         0
+                maintext                             52       52      119         0
+                clrtext                             6DD      6DD        6         0
 
         CLASS   STRCODE        
 
-        CLASS   ENTRY          
-
         CLASS   STRING         
+
+        CLASS   CONST          
+
+        CLASS   ENTRY          
 
         CLASS   COMMON         
                 cstackCOMMON                         70       70        E         1
@@ -282,7 +282,7 @@ TOTAL           Name                               Link     Load   Length     Sp
 SEGMENTS        Name                           Load    Length   Top    Selector   Space  Class     Delta
 
                 reset_vec                      000000  000001  000001         0       0  CODE        2
-                intentry                       000004  000703  000707         8       0  CODE        2
+                intentry                       000004  0006F1  0006F5         8       0  CODE        2
                 cstackBANK0                    000020  00003F  00005F        20       1  BANK0       1
                 cstackCOMMON                   000070  00000E  00007E        70       1  COMMON      1
                 cstackBANK1                    0000A0  00000A  0000AA        A0       1  BANK1       1
@@ -296,12 +296,12 @@ UNUSED ADDRESS RANGES
         BANK1            000AA-000BF              16           1
         BIGRAM           02000-0206F              70           1
         CODE             00001-00003               3           2
-                         00707-007FF              F9
+                         006F5-007FF             10B
         CONST            00001-00003               3           2
-                         00707-007FF              F9
+                         006F5-007FF               B
         EEDATA           0F000-0F0FF             100           2
         ENTRY            00001-00003               3           2
-                         00707-007FF              F9
+                         006F5-007FF               B
         IDLOC            08000-08003               4           2
         RAM              0005F-0006F              11           1
                          000AA-000BF              16
@@ -339,9 +339,9 @@ UNUSED ADDRESS RANGES
         SFR9             00480-004EF              70           1
         STACK            0205A-0206F              16           1
         STRCODE          00001-00003               3           2
-                         00707-007FF              F9
+                         006F5-007FF             10B
         STRING           00001-00003               3           2
-                         00707-007FF              F9
+                         006F5-007FF               B
 
                                   Symbol Table
 
@@ -368,30 +368,28 @@ _ANSELA                         (abs)        0018C
 _ANSELC                         (abs)        0018E
 _AdcRes                         bssBANK0     00049
 _B                              bssBANK0     00053
-_B_LED_OFF                      text19       00704
-_B_LED_ON                       text18       00701
-_BatteryCheckVoltage            text17       00671
+_B_LED_OFF                      text19       006F2
+_B_LED_ON                       text18       006EF
+_BatteryCheckVoltage            text17       00691
 _BeepStatus                     bssBANK0     00054
 _CCP1CON                        (abs)        00293
 _CCP1CONbits                    (abs)        00293
 _CCPR1L                         (abs)        00291
 _ChargeStatus                   bssBANK0     00055
-_CheckStatus                    text4        005E4
-_CheckVoltage                   text20       00556
-_Data0                          text16       006F5
-_Data1                          text15       006DB
+_CheckStatus                    text4        005DD
+_CheckVoltage                   text20       00586
+_Data0                          text16       006E3
+_Data1                          text15       006C9
 _G                              bssBANK0     00056
 _INTCONbits                     (abs)        0000B
 _IOCAFbits                      (abs)        00393
 _IOCANbits                      (abs)        00392
-_Inject                         text5        00374
+_Inject                         text5        00386
 _LATA                           (abs)        0010C
 _LATAbits                       (abs)        0010C
 _LATC                           (abs)        0010E
 _LATCbits                       (abs)        0010E
 _LastChargeStatus               bssBANK0     00057
-_MyBuff                         bssBANK0     00058
-_MyCNT                          bssBANK0     0004B
 _OSCCONbits                     (abs)        00099
 _PIE1bits                       (abs)        00091
 _PIR1bits                       (abs)        00011
@@ -399,15 +397,14 @@ _PORTAbits                      (abs)        0000C
 _PORTCbits                      (abs)        0000E
 _PR2                            (abs)        0001B
 _R                              bssBANK0     00059
-_SendLED                        text14       00161
-_SerialLED                      text13       0051F
-_StartBeepHigh                  text12       00620
-_StartBeepLow                   text10       005C0
-_StartStatus                    text2        0063D
-_Status                         bssBANK0     0005A
-_StatusDisplay1                 text1        00465
-_StatusDisplayADC               text3        003C8
-_StopBeep                       text9        0069F
+_SendLED                        text14       0016B
+_SerialLED                      text13       0051A
+_StartBeepHigh                  text12       005FA
+_StartBeepLow                   text10       005B9
+_StartStatus                    text2        00634
+_StatusDisplay1                 text1        00462
+_StatusDisplayADC               text3        003D1
+_StopBeep                       text9        00667
 _T1CON                          (abs)        00018
 _T1CONbits                      (abs)        00018
 _T2CONbits                      (abs)        0001C
@@ -465,7 +462,7 @@ __Hbank8                        bank8        00000
 __Hbank9                        bank9        00000
 __Hbigram                       bigram       00000
 __HbssBANK0                     bssBANK0     00000
-__Hcinit                        cinit        00057
+__Hcinit                        cinit        00052
 __Hclrtext                      clrtext      00000
 __Hcode                         code         00000
 __Hcommon                       common       00000
@@ -474,11 +471,11 @@ __HcstackBANK0                  cstackBANK0  00000
 __HcstackBANK1                  cstackBANK1  00000
 __HcstackCOMMON                 cstackCOMMON 00000
 __Heeprom_data                  eeprom_data  00000
-__Hend_init                     end_init     0004E
+__Hend_init                     end_init     0004A
 __Hfunctab                      functab      00000
 __Hidloc                        idloc        00000
-__Hinit                         init         0004D
-__Hintentry                     intentry     0004D
+__Hinit                         init         00049
+__Hintentry                     intentry     00049
 __Hmaintext                     maintext     00000
 __Hpowerup                      powerup      00000
 __Hram                          ram          00000
@@ -557,7 +554,7 @@ __Lbank8                        bank8        00000
 __Lbank9                        bank9        00000
 __Lbigram                       bigram       00000
 __LbssBANK0                     bssBANK0     00000
-__Lcinit                        cinit        0004E
+__Lcinit                        cinit        0004A
 __Lclrtext                      clrtext      00000
 __Lcode                         code         00000
 __Lcommon                       common       00000
@@ -566,10 +563,10 @@ __LcstackBANK0                  cstackBANK0  00000
 __LcstackBANK1                  cstackBANK1  00000
 __LcstackCOMMON                 cstackCOMMON 00000
 __Leeprom_data                  eeprom_data  00000
-__Lend_init                     end_init     0004D
+__Lend_init                     end_init     00049
 __Lfunctab                      functab      00000
 __Lidloc                        idloc        00000
-__Linit                         init         0004D
+__Linit                         init         00049
 __Lintentry                     intentry     00004
 __Lmaintext                     maintext     00000
 __Lpowerup                      powerup      00000
@@ -618,89 +615,89 @@ __S0                            (abs)        08009
 __S1                            (abs)        000AA
 __S2                            (abs)        00000
 __S3                            (abs)        00000
-___ftge                         text8        004A7
+___ftge                         text8        004A2
 ___ftge@ff1                     cstackBANK0  00038
 ___ftge@ff2                     cstackBANK0  0003B
-___ftpack                       text7        002B3
+___ftpack                       text7        002BD
 ___ftpack@arg                   cstackBANK0  0002C
 ___ftpack@exp                   cstackBANK0  0002F
 ___ftpack@sign                  cstackBANK0  00030
 ___int_sp                       stack        00000
 ___latbits                      (abs)        00000
-___lwtoft                       text6        006B5
+___lwtoft                       text6        0067D
 ___lwtoft@c                     cstackBANK0  00034
 ___sp                           stack        00000
-__end_of_B_LED_OFF              text19       00707
-__end_of_B_LED_ON               text18       00704
-__end_of_BatteryCheckVoltage    text17       00688
-__end_of_CheckStatus            text4        00602
-__end_of_CheckVoltage           text20       0058B
-__end_of_Data0                  text16       006FB
-__end_of_Data1                  text15       006E5
-__end_of_Inject                 text5        003C8
-__end_of_SendLED                text14       00210
-__end_of_SerialLED              text13       00556
-__end_of_StartBeepHigh          text12       0063D
-__end_of_StartBeepLow           text10       005E4
-__end_of_StartStatus            text2        00659
-__end_of_StatusDisplay1         text1        004A7
-__end_of_StatusDisplayADC       text3        00417
-__end_of_StopBeep               text9        006B5
-__end_of___ftge                 text8        004E3
-__end_of___ftpack               text7        00314
-__end_of___lwtoft               text6        006C9
-__end_of__initialization        cinit        00054
-__end_of_delay_ms               text11       00671
-__end_of_isr                    intentry     0004D
-__end_of_main                   maintext     00161
-__end_ofi1_BatteryCheckVoltage  text30       0069F
-__end_ofi1_CheckStatus          text31       00620
-__end_ofi1_Data0                text29       00701
-__end_ofi1_Data1                text28       006EF
-__end_ofi1_SendLED              text27       002B3
-__end_ofi1_SerialLED            text26       005C0
-__end_ofi1_StatusDisplayADC     text22       00465
-__end_ofi1___ftge               text25       0051F
-__end_ofi1___ftpack             text24       00374
-__end_ofi1___lwtoft             text23       006DB
-__initialization                cinit        0004E
+__end_of_B_LED_OFF              text19       006F5
+__end_of_B_LED_ON               text18       006F2
+__end_of_BatteryCheckVoltage    text17       006A4
+__end_of_CheckStatus            text4        005FA
+__end_of_CheckVoltage           text20       005B9
+__end_of_Data0                  text16       006E9
+__end_of_Data1                  text15       006D3
+__end_of_Inject                 text5        003D1
+__end_of_SendLED                text14       0021A
+__end_of_SerialLED              text13       00551
+__end_of_StartBeepHigh          text12       00617
+__end_of_StartBeepLow           text10       005DD
+__end_of_StartStatus            text2        0064F
+__end_of_StatusDisplay1         text1        004A2
+__end_of_StatusDisplayADC       text3        0041A
+__end_of_StopBeep               text9        0067D
+__end_of___ftge                 text8        004DE
+__end_of___ftpack               text7        00322
+__end_of___lwtoft               text6        00691
+__end_of__initialization        cinit        00050
+__end_of_delay_ms               text11       00667
+__end_of_isr                    intentry     00049
+__end_of_main                   maintext     0016B
+__end_ofi1_BatteryCheckVoltage  text30       006B7
+__end_ofi1_CheckStatus          text31       00634
+__end_ofi1_Data0                text29       006EF
+__end_ofi1_Data1                text28       006DD
+__end_ofi1_SendLED              text27       002BD
+__end_ofi1_SerialLED            text26       00586
+__end_ofi1_StatusDisplayADC     text22       00462
+__end_ofi1___ftge               text25       0051A
+__end_ofi1___ftpack             text24       00386
+__end_ofi1___lwtoft             text23       006C9
+__initialization                cinit        0004A
 __pbssBANK0                     bssBANK0     00049
 __pcstackBANK0                  cstackBANK0  00020
 __pcstackBANK1                  cstackBANK1  000A0
 __pcstackCOMMON                 cstackCOMMON 00070
 __pintentry                     intentry     00004
-__pmaintext                     maintext     00057
+__pmaintext                     maintext     00052
 __ptext0                        text0        00000
-__ptext1                        text1        00465
-__ptext10                       text10       005C0
-__ptext11                       text11       00659
-__ptext12                       text12       00620
-__ptext13                       text13       0051F
-__ptext14                       text14       00161
-__ptext15                       text15       006DB
-__ptext16                       text16       006F5
-__ptext17                       text17       00671
-__ptext18                       text18       00701
-__ptext19                       text19       00704
-__ptext2                        text2        0063D
-__ptext20                       text20       00556
-__ptext22                       text22       00417
-__ptext23                       text23       006C9
-__ptext24                       text24       00314
-__ptext25                       text25       004E3
-__ptext26                       text26       0058B
-__ptext27                       text27       00210
-__ptext28                       text28       006E5
-__ptext29                       text29       006FB
-__ptext3                        text3        003C8
-__ptext30                       text30       00688
-__ptext31                       text31       00602
-__ptext4                        text4        005E4
-__ptext5                        text5        00374
-__ptext6                        text6        006B5
-__ptext7                        text7        002B3
-__ptext8                        text8        004A7
-__ptext9                        text9        0069F
+__ptext1                        text1        00462
+__ptext10                       text10       005B9
+__ptext11                       text11       0064F
+__ptext12                       text12       005FA
+__ptext13                       text13       0051A
+__ptext14                       text14       0016B
+__ptext15                       text15       006C9
+__ptext16                       text16       006E3
+__ptext17                       text17       00691
+__ptext18                       text18       006EF
+__ptext19                       text19       006F2
+__ptext2                        text2        00634
+__ptext20                       text20       00586
+__ptext22                       text22       0041A
+__ptext23                       text23       006B7
+__ptext24                       text24       00322
+__ptext25                       text25       004DE
+__ptext26                       text26       00551
+__ptext27                       text27       0021A
+__ptext28                       text28       006D3
+__ptext29                       text29       006E9
+__ptext3                        text3        003D1
+__ptext30                       text30       006A4
+__ptext31                       text31       00617
+__ptext4                        text4        005DD
+__ptext5                        text5        00386
+__ptext6                        text6        0067D
+__ptext7                        text7        002BD
+__ptext8                        text8        004A2
+__ptext9                        text9        00667
 __size_of_B_LED_OFF             (abs)        00000
 __size_of_B_LED_ON              (abs)        00000
 __size_of_BatteryCheckVoltage   (abs)        00000
@@ -733,20 +730,15 @@ __size_ofi1_StatusDisplayADC    (abs)        00000
 __size_ofi1___ftge              (abs)        00000
 __size_ofi1___ftpack            (abs)        00000
 __size_ofi1___lwtoft            (abs)        00000
-_cnt                            bssBANK0     0005B
-_cntCharge                      bssBANK0     0005C
-_cntChargeNon                   bssBANK0     0004D
-_delay_ms                       text11       00659
-_fDsky                          bssBANK0     0005D
+_delay_ms                       text11       0064F
 _fLED                           bssBANK0     0005E
-_i1                             bssBANK0     0004F
 _isr                            intentry     00004
-_main                           maintext     00057
+_main                           maintext     00052
 _vBattery                       bssBANK0     00051
 btemp                           (abs)        0007E
-clear_ram0                      clrtext      006EF
+clear_ram0                      clrtext      006DD
 delay_ms@time                   cstackBANK0  0002C
-end_of_initialization           cinit        00054
+end_of_initialization           cinit        00050
 i1SendLED@comp                  cstackCOMMON 00077
 i1SendLED@loop8                 cstackCOMMON 00075
 i1SendLED@loopNum               cstackCOMMON 00073
@@ -754,21 +746,21 @@ i1SendLED@num                   cstackCOMMON 00070
 i1SerialLED@b                   cstackCOMMON 0007A
 i1SerialLED@g                   cstackCOMMON 00079
 i1SerialLED@r                   cstackCOMMON 0007D
-i1_BatteryCheckVoltage          text30       00688
-i1_CheckStatus                  text31       00602
-i1_Data0                        text29       006FB
-i1_Data1                        text28       006E5
-i1_SendLED                      text27       00210
-i1_SerialLED                    text26       0058B
-i1_StatusDisplayADC             text22       00417
-i1___ftge                       text25       004E3
+i1_BatteryCheckVoltage          text30       006A4
+i1_CheckStatus                  text31       00617
+i1_Data0                        text29       006E9
+i1_Data1                        text28       006D3
+i1_SendLED                      text27       0021A
+i1_SerialLED                    text26       00551
+i1_StatusDisplayADC             text22       0041A
+i1___ftge                       text25       004DE
 i1___ftge@ff1                   cstackBANK0  00020
 i1___ftge@ff2                   cstackBANK0  00023
-i1___ftpack                     text24       00314
+i1___ftpack                     text24       00322
 i1___ftpack@arg                 cstackCOMMON 00070
 i1___ftpack@exp                 cstackCOMMON 00073
 i1___ftpack@sign                cstackCOMMON 00074
-i1___lwtoft                     text23       006C9
+i1___lwtoft                     text23       006B7
 i1___lwtoft@c                   cstackCOMMON 00078
 intlevel0                       functab      00000
 intlevel1                       functab      00000
@@ -791,12 +783,11 @@ main@nBeepRepeatCount           cstackBANK1  000A2
 main@nSwHoldingCount            cstackBANK1  000A0
 main@nSwStableCount             cstackBANK1  000A1
 main@nSwStat                    cstackBANK1  000A9
-pic14e$flags                    (abs)        0007E
 reset_vec                       reset_vec    00000
 stackhi                         (abs)        0206F
 stacklo                         (abs)        0205A
-start                           init         0004D
-start_initialization            cinit        0004E
+start                           init         00049
+start_initialization            cinit        0004A
 ttemp                           (abs)        0007E
 ttemp0                          (abs)        0007E
 ttemp1                          (abs)        00081
@@ -969,7 +960,7 @@ Total ram usage:        1 bytes
  Return value:  Size  Location     Type
 		None               void
  Registers used:
-		wreg
+		wreg, status,2, status,0
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -992,7 +983,7 @@ Total ram usage:        1 bytes
 
  *************** function _Inject *****************
  Defined at:
-		line 417 in file "main.c"
+		line 423 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1029,7 +1020,7 @@ Total ram usage:        2 bytes
 
  *************** function ___lwtoft *****************
  Defined at:
-		line 28 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c"
+		line 28 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c"
  Parameters:    Size  Location     Type
   c               2   20[BANK0 ] unsigned int 
  Auto vars:     Size  Location     Type
@@ -1060,7 +1051,7 @@ Total ram usage:        4 bytes
 
  *************** function ___ftpack *****************
  Defined at:
-		line 62 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\float.c"
+		line 62 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c"
  Parameters:    Size  Location     Type
   arg             3   12[BANK0 ] unsigned um
   exp             1   15[BANK0 ] unsigned char 
@@ -1092,7 +1083,7 @@ Total ram usage:        8 bytes
 
  *************** function ___ftge *****************
  Defined at:
-		line 4 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c"
+		line 4 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c"
  Parameters:    Size  Location     Type
   ff1             3   24[BANK0 ] float 
   ff2             3   27[BANK0 ] float 
@@ -1124,7 +1115,7 @@ Total ram usage:        9 bytes
 
  *************** function _StopBeep *****************
  Defined at:
-		line 401 in file "main.c"
+		line 407 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1155,7 +1146,7 @@ Total ram usage:        0 bytes
 
  *************** function _StartBeepLow *****************
  Defined at:
-		line 379 in file "main.c"
+		line 385 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1218,7 +1209,7 @@ Total ram usage:        3 bytes
 
  *************** function _StartBeepHigh *****************
  Defined at:
-		line 359 in file "main.c"
+		line 365 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1380,7 +1371,7 @@ Total ram usage:        0 bytes
 
  *************** function _BatteryCheckVoltage *****************
  Defined at:
-		line 442 in file "main.c"
+		line 449 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1391,7 +1382,7 @@ Total ram usage:        0 bytes
  Return value:  Size  Location     Type
                   2   12[BANK0 ] unsigned int 
  Registers used:
-		wreg, status,2, status,0
+		wreg
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1474,7 +1465,7 @@ Total ram usage:        0 bytes
 
  *************** function _CheckVoltage *****************
  Defined at:
-		line 459 in file "main.c"
+		line 466 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1485,7 +1476,7 @@ Total ram usage:        0 bytes
  Return value:  Size  Location     Type
                   1    wreg      unsigned char 
  Registers used:
-		wreg, status,2, status,0
+		wreg
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1507,7 +1498,7 @@ Total ram usage:        4 bytes
 
  *************** function _isr *****************
  Defined at:
-		line 493 in file "main.c"
+		line 500 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1572,7 +1563,7 @@ Total ram usage:        1 bytes
 
  *************** function i1___lwtoft *****************
  Defined at:
-		line 28 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c"
+		line 28 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c"
  Parameters:    Size  Location     Type
   c               2    8[COMMON] unsigned int 
  Auto vars:     Size  Location     Type
@@ -1602,7 +1593,7 @@ Total ram usage:        4 bytes
 
  *************** function i1___ftpack *****************
  Defined at:
-		line 62 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\float.c"
+		line 62 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c"
  Parameters:    Size  Location     Type
   arg             3    0[COMMON] unsigned um
   exp             1    3[COMMON] unsigned char 
@@ -1633,7 +1624,7 @@ Total ram usage:        8 bytes
 
  *************** function i1___ftge *****************
  Defined at:
-		line 4 in file "C:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c"
+		line 4 in file "C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c"
  Parameters:    Size  Location     Type
   ff1             3    0[BANK0 ] float 
   ff2             3    3[BANK0 ] float 
@@ -1787,7 +1778,7 @@ Total ram usage:        0 bytes
 
  *************** function i1_BatteryCheckVoltage *****************
  Defined at:
-		line 442 in file "main.c"
+		line 449 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -1798,7 +1789,7 @@ Total ram usage:        0 bytes
  Return value:  Size  Location     Type
                   2    0[COMMON] unsigned int 
  Registers used:
-		wreg, status,2, status,0
+		wreg
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1827,7 +1818,7 @@ Total ram usage:        2 bytes
  Return value:  Size  Location     Type
 		None               void
  Registers used:
-		wreg
+		wreg, status,2, status,0
  Tracked objects:
 		On entry : 
 		On exit  : 
@@ -1850,56 +1841,56 @@ Total ram usage:        1 bytes
 MODULE INFORMATION
 
 Module		Function		Class		Link	Load	Size
-C:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c
-		___ftge        		CODE           	04A7	0000	60
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c
+		___ftge        		CODE           	04A2	0000	61
 
-C:\Program Files\Microchip\xc8\v1.32\sources\common\ftge.c estimated size: 60
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\ftge.c estimated size: 61
 
-C:\Program Files\Microchip\xc8\v1.32\sources\common\float.c
-		___ftpack      		CODE           	02B3	0000	97
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c
+		___ftpack      		CODE           	02BD	0000	102
 
-C:\Program Files\Microchip\xc8\v1.32\sources\common\float.c estimated size: 97
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\float.c estimated size: 102
+
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c
+		___lwtoft      		CODE           	067D	0000	21
+
+C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\lwtoft.c estimated size: 21
 
 shared
-		i1___ftge      		CODE           	04E3	0000	60
-		i1___lwtoft    		CODE           	06C9	0000	18
-		i1_Data0       		CODE           	06FB	0000	6
-		i1_BatteryCheck		CODE           	0688	0000	23
-		i1_SerialLED   		CODE           	058B	0000	53
-		i1_StatusDispla		CODE           	0417	0000	78
-		i1___ftpack    		CODE           	0314	0000	96
-		__initializatio		CODE           	004E	0000	6
-		i1_SendLED     		CODE           	0210	0000	163
-		i1_CheckStatus 		CODE           	0602	0000	30
-		i1_Data1       		CODE           	06E5	0000	10
+		i1___ftge      		CODE           	04DE	0000	61
+		i1___lwtoft    		CODE           	06B7	0000	19
+		i1_Data0       		CODE           	06E9	0000	7
+		i1_BatteryCheck		CODE           	06A4	0000	20
+		i1_SerialLED   		CODE           	0551	0000	54
+		i1_StatusDispla		CODE           	041A	0000	73
+		i1___ftpack    		CODE           	0322	0000	101
+		__initializatio		CODE           	004A	0000	7
+		i1_SendLED     		CODE           	021A	0000	164
+		i1_CheckStatus 		CODE           	0617	0000	30
+		i1_Data1       		CODE           	06D3	0000	11
 
-shared estimated size: 543
-
-C:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c
-		___lwtoft      		CODE           	06B5	0000	20
-
-C:\Program Files\Microchip\xc8\v1.32\sources\common\lwtoft.c estimated size: 20
+shared estimated size: 547
 
 main.c
-		_SendLED       		CODE           	0161	0000	175
-		_SerialLED     		CODE           	051F	0000	55
-		_StatusDisplay1		CODE           	0465	0000	66
-		_main          		CODE           	0057	0000	266
-		_CheckVoltage  		CODE           	0556	0000	53
-		_Inject        		CODE           	0374	0000	84
-		_StopBeep      		CODE           	069F	0000	22
-		_BatteryCheckVo		CODE           	0671	0000	23
-		_Data0         		CODE           	06F5	0000	6
-		_isr           		CODE           	0004	0000	73
-		_Data1         		CODE           	06DB	0000	10
-		_StartBeepLow  		CODE           	05C0	0000	36
-		_CheckStatus   		CODE           	05E4	0000	30
-		_StartBeepHigh 		CODE           	0620	0000	29
-		_B_LED_ON      		CODE           	0701	0000	3
-		_B_LED_OFF     		CODE           	0704	0000	3
-		_StartStatus   		CODE           	063D	0000	28
-		_delay_ms      		CODE           	0659	0000	24
-		_StatusDisplayA		CODE           	03C8	0000	79
+		_SendLED       		CODE           	016B	0000	176
+		_SerialLED     		CODE           	051A	0000	56
+		_StatusDisplay1		CODE           	0462	0000	65
+		_main          		CODE           	0052	0000	282
+		_CheckVoltage  		CODE           	0586	0000	52
+		_Inject        		CODE           	0386	0000	76
+		_StopBeep      		CODE           	0667	0000	23
+		_BatteryCheckVo		CODE           	0691	0000	20
+		_Data0         		CODE           	06E3	0000	7
+		_isr           		CODE           	0004	0000	70
+		_Data1         		CODE           	06C9	0000	11
+		_StartBeepLow  		CODE           	05B9	0000	37
+		_CheckStatus   		CODE           	05DD	0000	30
+		_StartBeepHigh 		CODE           	05FA	0000	30
+		_B_LED_ON      		CODE           	06EF	0000	4
+		_B_LED_OFF     		CODE           	06F2	0000	4
+		_StartStatus   		CODE           	0634	0000	28
+		_delay_ms      		CODE           	064F	0000	25
+		_StatusDisplayA		CODE           	03D1	0000	74
 
-main.c estimated size: 1065
+main.c estimated size: 1070
 

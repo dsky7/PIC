@@ -40,7 +40,7 @@ int 	nINPUT;// FBS
 
 void __attribute__((__interrupt__)) _CNInterrupt(void){
 
-    	LED(2,500);
+  	LED(2,200);
 	delay_ms(10);
 	IFS1bits.CNIF = 0;
 //trans_vs(240);
@@ -74,7 +74,7 @@ void __attribute__((__interrupt__)) _CNInterrupt(void){
 			break;
 	}
 
-	LED(1,500);
+	LED(1,200);
 
 }
 
@@ -118,30 +118,21 @@ void knite_rider(int time1){
 }
 
 void init_pic(){
-	TRISA = 0;
-	TRISB = 0;
-	TRISC = 0;
+    TRISA = 0;
+    TRISB = 0;
+    TRISC = 0;
 
-	TRISBbits.TRISB9 = 1;
-	TRISBbits.TRISB12 = 1;
-	TRISBbits.TRISB13 = 1;
+    TRISBbits.TRISB9 = 1;
+    TRISBbits.TRISB12 = 1;
+    TRISBbits.TRISB13 = 1;
 
-	CNPU1bits.CN13PUE = 1;
-	CNPU1bits.CN14PUE = 1;
+    CNEN2bits.CN21IE = 1;   //rb9
+    CNEN1bits.CN13IE = 1;   //rb13
+    CNEN1bits.CN14IE = 1;   //rb12
 
-	CNPU2bits.CN21PUE = 1;
-//        CNPU2 = 0XFF;
-//        CNPU1 = 0xFF;
-
-	CNEN2bits.CN21IE = 1;   //rb9
-	CNEN1bits.CN13IE = 1;   //rb13
-	CNEN1bits.CN14IE = 1;   //rb12
-
-
-
-	IFS1bits.CNIF = 0;
-	IEC1bits.CNIE =1;
-	IPC4bits.CNIP = 2;
+    IFS1bits.CNIF = 0;
+    IEC1bits.CNIE =1;
+    IPC4bits.CNIP = 2;
 }
 void init_pwm(){
 	P1TPER = 262;
@@ -267,86 +258,21 @@ void LED(int color, int delaytime){
 }
 
 void main(){
-	//init_pic();
+    int i;
+	init_pic();
 	init_pwm();
-//	knite_rider(300);
-//	knite_rider(300);
-	TRISA = 0;
-	TRISB = 0;
-	TRISC = 0;
 
-
-        	TRISBbits.TRISB9 = 1;
-	TRISBbits.TRISB12 = 1;
-	TRISBbits.TRISB13 = 1;
-        	CNEN2bits.CN21IE = 1;   //rb9
-	CNEN1bits.CN13IE = 1;   //rb13
-	CNEN1bits.CN14IE = 1;   //rb12
-
-
-
-	IFS1bits.CNIF = 0;
-	IEC1bits.CNIE =1;
-	IPC4bits.CNIP = 2;
-	LED(2,200);
-	delay_ms(200);
-	LED(2,200);
-	delay_ms(200);
-	LED(2,200);
-	delay_ms(200);
-
-//	LED(3,1000);
-	//trans_vs(250);
-
-
-    //   while(1){LATBbits.LATB9=1;LATBbits.LATB12=1;LATBbits.LATB13=1;LED(3,500);LATBbits.LATB9=0;LATBbits.LATB12=0;LATBbits.LATB13=0;delay_ms(1000);}
-
-//while(1){	LATBbits.LATB13=1;	delay_ms(500);LATBbits.LATB13=0;	delay_ms(500);}
-        delay_ms(1000);
+    IFS1bits.CNIF = 1;
+    
+    for(i=0;i<2;i++){
+        LED(2,200);
+        delay_ms(200);
+    }
+	
+    delay_ms(1000);
+    
 	while(1){
 		LED(3,1000);
 		delay_ms(1000);
 	}
-//while(1){if(!PORTBbits.RB13==0){LED(3,100);}else{LED(2,100);}}
-//
-//	while(1){
-//		nINPUT = (!PORTBbits.RB9)+(2*!PORTBbits.RB12)+(4*!PORTBbits.RB13);
-//
-//
-//	switch(nINPUT){
-//		case 0:
-//			trans_vs(250);
-//			break;
-//		case 1:
-//			trans_vs(240);
-//			break;
-//		case 2:
-//			trans_vs(230);
-//			break;
-//		case 3:
-//			trans_vs(227);
-//			break;
-//		case 4:
-//			trans_vs(242);
-//			break;
-//		case 5:
-//			trans_vs(231);
-//			break;
-//		case 6:
-//			trans_vs(225);
-//			break;
-//		case 7:
-//			trans_vs(228);
-//			break;
-//	}
-//
-//
-//
-//
-//
-//		LED(0,500);
-//		//			trans_vs(250);
-//		delay_ms(500);
-//		//			trans_vs(240);
-//	}
 }
